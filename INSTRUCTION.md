@@ -19,7 +19,6 @@ Check that the file-system in write-protected (Read-only):
 ```bash
 kubectl exec -it <pod-name> -- touch /app/configs/test.txt
 ```
-
 3. Check the mounting of the secret:
 1. View the list of files in the secrets directory:
 ```bash
