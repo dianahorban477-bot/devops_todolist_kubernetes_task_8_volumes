@@ -22,7 +22,7 @@ spec:
         image: ikulyk404/todoapp:3.0.0
         volumeMounts:
         - name: data
-          path: /app/data
+          mountPath: /app/data
           readOnly: true
         - name: configs
           mountPath: /app/configs
